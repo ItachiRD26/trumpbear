@@ -19,7 +19,7 @@ export default function Home() {
               height={40}
               className="rounded-full"
             />
-            <span className="text-xl font-bold text-red-600">TRUMPBEAR</span>
+            <span className="text-xl font-bold text-red-600">TRUMP COLLAPSED THE MARKET</span>
           </div>
 
           {/* Mobile menu */}
@@ -51,26 +51,28 @@ export default function Home() {
             </SheetContent>
           </Sheet>
 
-          {/* Desktop menu */}
-          <nav className="hidden md:flex md:items-center md:gap-6">
-            <a href="#about" className="text-sm font-medium hover:text-red-600">
-              About
-            </a>
-            <a href="#tokenomics" className="text-sm font-medium hover:text-red-600">
-              Tokenomics
-            </a>
-            <a href="#memes" className="text-sm font-medium hover:text-red-600">
-              Memes
-            </a>
-            <a href="#news" className="text-sm font-medium hover:text-red-600">
-              Market News
-            </a>
-            <a href="#buy" className="text-sm font-medium hover:text-red-600">
-              How to Buy
-            </a>
-          </nav>
+{/* Desktop menu */}
+<nav className="hidden md:flex md:items-center md:gap-6">
+  <a href="#about" className="text-sm font-medium hover:text-red-600">
+    About
+  </a>
+  <a href="#tokenomics" className="text-sm font-medium hover:text-red-600">
+    Tokenomics
+  </a>
+  <a href="#memes" className="text-sm font-medium hover:text-red-600">
+    Memes
+  </a>
+  <a href="#news" className="text-sm font-medium hover:text-red-600">
+    Market News
+  </a>
+  <a href="#buy" className="text-sm font-medium hover:text-red-600">
+    How to Buy
+  </a>
+</nav>
 
-          <Button className="hidden bg-red-600 hover:bg-red-700 md:inline-flex">Buy Now</Button>
+<a href="https://raydium.io/swap/?inputMint=sol&outputMint=2RpkogdrqJyUYNzs8Z33k84xDpt8MLZN1KfceD4GkkTm" target="_blank" rel="noopener noreferrer">
+  <Button className="hidden bg-red-600 hover:bg-red-700 md:inline-flex">Buy Now</Button>
+</a>
         </div>
       </header>
 
@@ -85,23 +87,25 @@ export default function Home() {
               height={150}
               className="rounded-full border-4 border-red-600"
             />
-            <h1 className="mt-6 text-5xl font-extrabold tracking-tight text-red-600 md:text-6xl">TRUMPBEAR</h1>
+            <h1 className="mt-6 text-5xl font-extrabold tracking-tight text-red-600 md:text-6xl">TRUMP COLLAPSED THE MARKET</h1>
             <p className="mt-4 max-w-2xl text-xl text-gray-600">
               Trump Made a Bear Market Again!
             </p>
           </div>
 
           <div className="flex flex-col gap-4 sm:flex-row">
-            <Button className="bg-red-600 hover:bg-red-700">Buy on DEX</Button>
-          </div>
+  <a href="https://raydium.io/swap/?inputMint=sol&outputMint=2RpkogdrqJyUYNzs8Z33k84xDpt8MLZN1KfceD4GkkTm" target="_blank" rel="noopener noreferrer">
+    <Button className="bg-red-600 hover:bg-red-700">Buy on DEX</Button>
+  </a>
+</div>
 
           <div>
-            <p className="text-red-600 font-semibold">TOKEN CONTRACT:</p>
+            <p className="text-red-600 font-semibold">TOKEN CONTRACT:2RpkogdrqJyUYNzs8Z33k84xDpt8MLZN1KfceD4GkkTm</p>
           </div>
 
           <div className="mt-4 flex items-center gap-2 rounded-full bg-red-100 px-4 py-2 text-sm font-medium text-red-800">
             <ArrowDown className="h-4 w-4" />
-            Market is down 2.3% today. Perfect time for TRUMPBEAR!
+            Market is down 2.3% today. Perfect time for $TCTM!
           </div>
         </div>
 
@@ -116,8 +120,8 @@ export default function Home() {
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold text-red-600 md:text-4xl">About TRUMPBEAR</h2>
             <p className="mt-4 text-lg text-gray-600">
-              TRUMPBEAR is a community-driven Solana token inspired by the volatility of crypto markets and the
-              meme-worthy moments of politics. Born in the bear market, TRUMPBEAR embraces the chaos and turns market
+            TRUMP COLLAPSED THE MARKET is a community-driven Solana token inspired by the volatility of crypto markets and the
+              meme-worthy moments of politics. Born in the bear market, TRUMP COLLAPSED THE MARKET embraces the chaos and turns market
               downturns into opportunities.
             </p>
             <div className="mt-10 grid gap-8 md:grid-cols-3">
@@ -198,11 +202,11 @@ export default function Home() {
               <div className="mt-4 space-y-4">
                 <div className="flex justify-between">
                   <span className="font-medium">Token Name:</span>
-                  <span>TRUMPBEAR</span>
+                  <span>TRUMP COLLAPSED THE MARKET</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="font-medium">Token Symbol:</span>
-                  <span>$TBEAR</span>
+                  <span>$TCTM</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="font-medium">Blockchain:</span>
@@ -210,7 +214,7 @@ export default function Home() {
                 </div>
                 <div className="flex justify-between">
                   <span className="font-medium">Total Supply:</span>
-                  <span>1,000,000,000 $TBEAR</span>
+                  <span>1,000,000,000 $TCTM</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="font-medium">Tax:</span>
@@ -218,7 +222,7 @@ export default function Home() {
                 </div>
                 <div className="flex justify-between">
                   <span className="font-medium">Launch Date:</span>
-                  <span>March 04, 2025</span>
+                  <span>March 05, 2025</span>
                 </div>
               </div>
             </div>
@@ -308,7 +312,7 @@ export default function Home() {
               </CardContent>
               <CardFooter>
                 <Button variant="ghost" className="text-red-600 hover:bg-red-50 hover:text-red-700 border border-red-600 rounded-lg px-4 py-2 transition-colors duration-200">
-                  <a href="https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-lower-trump-tariffs-speech-congress-nvidia/" target="_blank" rel="noopener noreferrer" className="flex items-center">
+                  <a href="https://www.usnews.com/news/economy/articles/2025-03-04/trump-bump-turns-into-trump-slump-as-markets-tank-on-tariffs-ahead-of-joint-address-to-congress" target="_blank" rel="noopener noreferrer" className="flex items-center">
                     Read More <ExternalLink className="ml-2 h-4 w-4" />
                   </a>
                 </Button>
@@ -391,9 +395,9 @@ export default function Home() {
       <section id="buy" className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-4xl text-center">
-            <h2 className="text-4xl font-bold text-red-600 md:text-5xl">How to Buy TRUMPBEAR</h2>
+            <h2 className="text-4xl font-bold text-red-600 md:text-5xl">How to Buy TRUMP COLLAPSED THE MARKET</h2>
             <p className="mt-4 text-xl text-gray-600">
-              Follow these simple steps to get your hands on TRUMPBEAR tokens and join the revolution!
+              Follow these simple steps to get your hands on TRUMP COLLAPSED THE MARKET tokens and join the revolution!
             </p>
 
             <div className="mt-12 grid gap-8 md:grid-cols-3">
@@ -424,18 +428,20 @@ export default function Home() {
                 <div className="flex h-16 w-16 items-center justify-center rounded-full bg-red-100 text-2xl font-bold text-red-600">
                   3
                 </div>
-                <h3 className="mt-6 text-2xl font-bold">Swap for TRUMPBEAR</h3>
+                <h3 className="mt-6 text-2xl font-bold">Swap for TRUMP COLLAPSED THE MARKET</h3>
                 <p className="mt-4 text-gray-600">
-                  Use Jupiter or Raydium to swap your SOL for TRUMPBEAR tokens.
+                  Use Jupiter or Raydium to swap your SOL for TRUMP COLLAPSED THE MARKET tokens.
                 </p>
               </div>
             </div>
 
             <div className="mt-12">
-              <button className="rounded-lg bg-red-600 px-8 py-3 text-lg font-semibold text-white transition-colors hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2">
-                BUY TRUMPBEAR NOW!
-              </button>
-            </div>
+  <a href="https://raydium.io/swap/?inputMint=sol&outputMint=2RpkogdrqJyUYNzs8Z33k84xDpt8MLZN1KfceD4GkkTm" target="_blank" rel="noopener noreferrer">
+    <button className="rounded-lg bg-red-600 px-8 py-3 text-lg font-semibold text-white transition-colors hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2">
+      BUY TRUMP COLLAPSED THE MARKET NOW!
+    </button>
+  </a>
+</div>
           </div>
         </div>
       </section>
@@ -457,15 +463,15 @@ export default function Home() {
                 height={40}
                 className="rounded-full"
               />
-              <span className="text-xl font-bold text-red-600">TRUMPBEAR</span>
+              <span className="text-xl font-bold text-red-600">TRUMP COLLAPSED THE MARKET</span>
             </div>
 
-            <p className="text-sm text-gray-500">© 2025 TRUMPBEAR. All rights reserved.</p>
+            <p className="text-sm text-gray-500">© 2025 TRUMP COLLAPSED THE MARKET. All rights reserved.</p>
           </div>
 
           <div className="mt-6 text-center text-xs text-gray-500">
             <p>
-              TRUMPBEAR is a meme token with no intrinsic value or financial return expectation. This website is for
+            TRUMP COLLAPSED THE MARKET is a meme token with no intrinsic value or financial return expectation. This website is for
               entertainment purposes only and does not constitute financial advice.
             </p>
           </div>

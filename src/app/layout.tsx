@@ -6,8 +6,8 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "TRUMPBEAR",
-  description: "The ultimate bear market token on Solana. Making crypto great again!",
+  title: "$TCTM",
+  description: "The ultimate TRUMP RED MARKET. Making crypto great again!",
   icons: {
     icon: "/logo.jpg", // Formato JPG
   },

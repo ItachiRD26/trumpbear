@@ -1,0 +1,21 @@
+{
+    "name": "TRUMP COLLAPSED THE MARKET",
+    "symbol": "TCTM",
+    "description": "A satirical token commemorating the moments when Donald Trump impacted financial markets. Invest with humor and caution!",
+    "image": "https://www.trumpbear.fun/logo.jpg",
+    "external_url": "https://www.trumpbear.fun",
+    "attributes": [
+      {
+        "trait_type": "Type",
+        "value": "Memecoin"
+      },
+      {
+        "trait_type": "Theme",
+        "value": "Financial Markets"
+      },
+      {
+        "trait_type": "Mood",
+        "value": "Satirical"
+      }
+    ]
+  }

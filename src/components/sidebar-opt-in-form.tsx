@@ -21,12 +21,12 @@ export function SidebarOptInForm() {
       {isSubmitted ? (
         <div className="text-center">
           <h3 className="text-sm font-medium text-red-600">Thanks for subscribing!</h3>
-          <p className="mt-1 text-xs text-muted-foreground">You&apos;ll receive TRUMPBEAR updates soon.</p>
+          <p className="mt-1 text-xs text-muted-foreground">You&apos;ll receive TRUMP COLLAPSED THE MARKET updates soon.</p>
         </div>
       ) : (
         <>
           <h3 className="text-sm font-medium text-red-600">Stay Updated</h3>
-          <p className="mt-1 text-xs text-muted-foreground">Get the latest TRUMPBEAR news and market updates.</p>
+          <p className="mt-1 text-xs text-muted-foreground">Get the latest TRUMP COLLAPSED THE MARKET news and market updates.</p>
           <form onSubmit={handleSubmit} className="mt-3 space-y-2">
             <Input
               type="email"
